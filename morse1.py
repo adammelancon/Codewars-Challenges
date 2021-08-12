@@ -1,4 +1,5 @@
 # https://www.codewars.com/kata/54b724efac3d5402db00065e
+# In this kata you have to write a simple Morse code decoder. 
 
 MORSE_CODER = { 'A':'.-', 'B':'-...',
                     'C':'-.-.', 'D':'-..', 'E':'.',

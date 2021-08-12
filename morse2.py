@@ -10,6 +10,9 @@ MORSE_CODE = {'.-': 'A', '-...': 'B', '-.-.': 'C', '-..': 'D', '.': 'E', '..-.':
 
 #   morseCodes(".--") //to access the morse translation of ".--"
 # https://www.codewars.com/kata/54b72c16cd7f5154e9000457
+#  In this kata you have to write a Morse code decoder for wired electrical telegraph. 
+
+#UNFINISHED
 
 def decode_bits(bits):
     # ToDo: Accept 0's and 1's, return dots, dashes and spaces

@@ -1,4 +1,6 @@
 # https://www.codewars.com/kata/563e320cee5dddcf77000158
+# Return the average of the given array rounded down to its nearest integer.
+# The array will never be empty.
 
 def get_average(marks):
     #raise NotImplementedError("TODO: get_average")
