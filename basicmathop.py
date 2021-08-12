@@ -11,7 +11,7 @@ def basic_op(operator, value1, value2):
 
 
 
-
+# tests
 basic_op('+', 4, 7)
 basic_op('-', 15, 18)
 basic_op('*', 5, 5)
