@@ -26,7 +26,7 @@ def tickets(people):
             howmanyneed += ((i -25) / 25)
             twentyfives -= 1
             mnychg = totalmoney - i
-        elif mnychg > i
+        elif mnychg > i:
             return "YES"
             
 
@@ -49,7 +49,8 @@ def tickets(people):
             print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             print("return YES")
             return str("YES")
-        elif mnychg > i
+        elif mnychg > i:
+            pass
         else:
             print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             print("No, I can't give exact change.")
@@ -68,3 +69,5 @@ print("=========================================================================
 # tickets([25, 100])
 # tickets([25, 25, 25, 25, 25, 25, 25, 25, 25, 25])
 tickets([25, 25, 50, 100])
+
+# https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8

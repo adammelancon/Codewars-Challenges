@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/52fba66badcd10859f00097e
+
 def disemvowel(string_):
     vowels = ["a", "e", "i", "o", "u"]
     letters = [char for char in string_]

@@ -9,6 +9,7 @@ MORSE_CODE = {'.-': 'A', '-...': 'B', '-.-.': 'C', '-..': 'D', '.': 'E', '..-.':
         '...-..-': '$', '.--.-.': '@', '...---...': 'SOS'}
 
 #   morseCodes(".--") //to access the morse translation of ".--"
+# https://www.codewars.com/kata/54b72c16cd7f5154e9000457
 
 def decode_bits(bits):
     # ToDo: Accept 0's and 1's, return dots, dashes and spaces

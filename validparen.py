@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/52774a314c2333f0a7000688
+
+# UNFINISHED
+
 def valid_parentheses(string):
     newlist = [x for x in string] 
     print(str(newlist) + "   ===   " + string)
@@ -8,6 +12,7 @@ def valid_parentheses(string):
 
     for x in only:
         if x == ")":
+            pass
             
  
 

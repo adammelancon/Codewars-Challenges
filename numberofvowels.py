@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/54ff3102c1bad923760001f3
+
 def get_count(input_str):
     num_vowels = 0
     v = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]

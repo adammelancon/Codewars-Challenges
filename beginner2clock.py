@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a
+
 def past(h, m, s):
     if h <= 23:
         hms = h * 3600000

@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/54b724efac3d5402db00065e
+
 MORSE_CODER = { 'A':'.-', 'B':'-...',
                     'C':'-.-.', 'D':'-..', 'E':'.',
                     'F':'..-.', 'G':'--.', 'H':'....',

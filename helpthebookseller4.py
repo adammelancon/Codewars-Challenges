@@ -1,4 +1,8 @@
 
+# https://www.codewars.com/kata/54dc6f5a224c26032800005c
+
+# UNFINISHED
+
 def stock_list(listOfArt, listOfCat):
     if (len(listOfArt) == 0) or (len(listOfCat) == 0):
         return ""

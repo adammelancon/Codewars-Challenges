@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/552c028c030765286c00007d
+
 def iq_test(numbers):
     nums = [int(x) for x in numbers.split(" ")]
     # print(nums)

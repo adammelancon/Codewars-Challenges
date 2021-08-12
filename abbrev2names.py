@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3
+
 def abbrev_name(name):
     name = name.split(" ")
     first = [char for char in name[0]]
