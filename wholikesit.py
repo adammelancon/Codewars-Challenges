@@ -10,16 +10,16 @@ that like an item. It must return the display text as shown in the examples:
 
 def likes(names):
     if len(names) == 0:
-        print("no one likes this")
+        return f"no one likes this"
     else:
         if len(names) == 1:
-            print(f"{names[0]} likes this")
+            return (f"{names[0]} likes this")
         if len(names) == 2:
-            print(f"{names[0]} and {names[1]} like this. ")
+            return (f"{names[0]} and {names[1]} like this")
         if len(names) == 3:
-            print(f"{names[0]}, {names[1]} and {names[2]} like this. ")
+            return (f"{names[0]}, {names[1]} and {names[2]} like this")
         if len(names) >= 4:
-            print(f"{names[0]}, {names[1]} and {len(names) - 2} others like this. ")
+            return f"{names[0]}, {names[1]} and {int(len(names)) - 2} others like this"
     
 
 
